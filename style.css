@@ -1,3 +1,4 @@
+//Fade-in code
 .fade-in {
   opacity: 0;
   animation: fadeIn 2s ease-in forwards;
@@ -9,6 +10,28 @@
   from {
     opacity: 0;
     transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+//scroll-fade code
+.scroll-fade {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.scroll-fade.animate {
+  animation: fadeUp 1s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
   }
 
   to {
