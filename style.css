@@ -1,4 +1,4 @@
-# Fade-in code
+/* Fade-in code */
 .fade-in {
   opacity: 0;
   animation: fadeIn 2s ease-in forwards;
@@ -18,10 +18,13 @@
   }
 }
 
-# scroll-fade code
+/* Scroll-fade code */
 .scroll-fade {
   opacity: 0;
   transform: translateY(30px);
+  font-size: 28px;
+  color: darkorange;
+  margin: 300px 0;
 }
 
 .scroll-fade.animate {
