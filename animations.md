@@ -1,29 +1,32 @@
-<link rel="stylesheet" href="style.css">
-
 # My Animation Page
+
+<link rel="stylesheet" href="style.css">
 
 <div class="fade-in">
   Hello! This text fades in.
 </div>
 
-
 # Scroll Animation Example
 
-<div style="height: 500px;">
-  Scroll down to see the animation.
-</div>
+Scroll down to see the animation.
+
+Here is some extra text to make the page longer. This helps us test scroll animations because the page needs enough space to scroll.
+
+Here is another paragraph of filler text. Later, this could be replaced with real information about your website, your project, or the animations you are testing.
+
+Here is one more paragraph before the first scroll animation. Keep scrolling down to see the animated text appear.
 
 <div class="scroll-fade">
   This text fades in when you scroll to it.
 </div>
 
-<div style="height: 500px;"></div>
+Here is more filler text after the first animation. The goal is to create enough space so that the next animation starts off-screen.
+
+This paragraph is here so you can scroll away from the first animation and then scroll back to replay it.
 
 <div class="scroll-fade">
   This one also replays when you scroll back to it.
 </div>
-
-
 
 <script>
 const observer = new IntersectionObserver((entries) => {
@@ -45,94 +48,3 @@ document.querySelectorAll(".scroll-fade").forEach(element => {
   observer.observe(element);
 });
 </script>
-
-
-text
-
-
-text
-
-
-text
-
-
-text
-
-
-
-text
-
-
-
-text
-
-
-text
-
- 
-text
-a
-text
-
-
-text
-a
-text
-
-
-
-taext
-
-
-
-a
-
-
-a
-
-
-text
-
-
-a
-
-
-
-a
-
-
-
-a
-
-
-text
-
-a
-
-
-a
-
-
-text
-
-
-a
-
-
-a
-
-texttext
-
-
-
-
-
-
-text
-
-
-
-
-
-
-text
